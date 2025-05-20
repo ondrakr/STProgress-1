@@ -77,7 +77,7 @@ const Projects = () => {
     const olderProjects = sortedProjects.slice(1);
 
     return (
-        <Flex w="100%" direction="column" mb="50px">
+        <Flex w="100%" direction="column" mb="50px" >
             <HeadingImg 
                 img={headerPicture} 
                 titleText="REFERENCE" 
